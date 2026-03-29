@@ -1,0 +1,72 @@
+/* Filters.css */
+.filters {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header section */
+.filters-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.items-count {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hide-filter {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.hide-filter:hover {
+  text-decoration: underline;
+}
+
+.sort-dropdown {
+  padding: 4px 6px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.filters h4 {
+  font-size: 15px;
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+}
+
+.filters input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #007bff;
+}
+
+.filters label:hover {
+  color: #000;
+}
