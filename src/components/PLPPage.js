@@ -1,7 +1,5 @@
 // PLPPage.jsx
 import React, { useState } from "react";
-import Filters from "./Filter";   // your existing Filters.js
-import Footer from "./Footer";     // your existing Footer
 import "./PLPPage.css";
 
 export default function PLPPage() {
