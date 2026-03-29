@@ -1,0 +1,78 @@
+/* PLPPage.css */
+
+.plp-page {
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER BAR */
+.plp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.plp-items {
+  font-size: 14px;
+}
+
+.plp-hide-filter {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #111;
+}
+
+.plp-sort {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* DISCOVER SECTION */
+.discover-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.discover-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.discover-section p {
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+}
+
+/* MAIN BODY */
+.plp-body {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* FILTERS */
+.plp-filters {
+  width: 260px;
+}
+
+/* PRODUCT GRID */
+.plp-products {
+  flex: 1;
+}
+
+.plp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.product-card {
+  height: 200px;
+  background: #eee;
+  border-radius: 6px;
+}

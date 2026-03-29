@@ -13,9 +13,7 @@ function ProductGrid() {
 
   return (
     <div>
-      <div style={{ marginBottom: "20px" }}>
-        <strong>{products.length} ITEMS</strong>
-      </div>
+  
 
       <div className="product-grid">
         {products.map(product => (

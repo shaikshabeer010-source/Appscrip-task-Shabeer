@@ -1,4 +1,5 @@
 import React from "react";
+import { FiMenu, FiSearch, FiHeart, FiShoppingBag, FiUser } from "react-icons/fi";
 import "./Header.css";
 
 const Header = () => {
@@ -10,24 +11,20 @@ const Header = () => {
 
         {/* Left Icon */}
         <div className="header-left">
-          <img
-            src="https://via.placeholder.com/24"
-            alt="menu-icon"
-            className="icon-img"
-          />
+          <FiMenu className="header-icon" />
         </div>
 
         {/* Center Logo */}
         <div className="header-center">
-          <h1 className="logo-text">LOGO</h1>
+          <h1 className="logo">LOGO</h1>
         </div>
 
         {/* Right Icons */}
-        <div className="header-right">
-          <span className="icon">🔍</span>
-          <span className="icon">♡</span>
-          <span className="icon">👜</span>
-          <span className="icon">👤</span>
+        <div className="header-icons">
+          <FiSearch className="header-icon" />
+          <FiHeart className="header-icon" />
+          <FiShoppingBag className="header-icon" />
+          <FiUser className="header-icon" />
           <span className="lang">ENG ⌄</span>
         </div>
 
